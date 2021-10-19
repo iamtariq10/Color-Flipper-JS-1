@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-flex{
+
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: rgb(92, 92, 92);
+    font-family:sans-serif;
+    text-shadow: 0px 0px px black;
+    
+}
+nav{
+    box-shadow: 0px 0px 3px black;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    font-size: 1.3rem;
+    margin: 1rem;
+    padding: 7px 7px;
+    border-radius: 5px;
+    background-color: white;
+    font-family:Helvetica, sans-serif;
+    box-shadow: 1px 1px 5px black;
+}
+h3:hover{
+    background-color: yellow;
+    transition:0.5s ease;
+    color: white;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+    color:black;
+    
+}
+#btn{
+    padding: 6px 7px;
+    margin: 5rem 38rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    color: black;
+    
+}
+#btn:hover{
+    cursor: pointer;
+    
+    transition: 0.5s ease;
+    background-color: rgb(253, 0, 253);
+}
+
+#heading-span{
+    text-decoration: underline;
+}
+
+
+
+.color-content{
+    background-color: tomato;
+}
+
+.head{
+    border: 1px solid black;
+    width: 50%;
+    margin:0 auto;
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 5rem;
+    padding:10px 10px;
+    box-shadow: 2px 1px 3px black;  
+}
